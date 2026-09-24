@@ -301,5 +301,3 @@ export const base44 = {
     },
   },
 };
-
-.
