@@ -1,0 +1,29 @@
+{
+  "name": "Post",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "author_name": {
+      "type": "string"
+    },
+    "liked_by": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "comment_count": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "content"
+  ]
+}
